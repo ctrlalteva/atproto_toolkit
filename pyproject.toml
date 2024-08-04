@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "atproto-toolkit"
+version = "0.1.0"
+description = "A collection of useful scripts for interacting with the AT Protocol"
+authors = ["Eva Haynes"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+atproto = "^0.0.49"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
